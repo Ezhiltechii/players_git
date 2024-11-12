@@ -12,8 +12,15 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Text('NEW PAGE'),
+    return const Scaffold(
+      body: Padding(
+        padding: EdgeInsets.symmetric(vertical: 20),
+        child: Column(
+          children: [
+            Text('Home Page Updated')
+          ],
+        ),
+      )
     );
   }
 }
