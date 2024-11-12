@@ -21,7 +21,17 @@ class Myprofile extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: Colors.blue,
                   fontSize: 30,
-                ),)
+                ),),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              'Flutter Developer',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+                fontSize: 30,
+              ),),
           ],
         ),
       ),
